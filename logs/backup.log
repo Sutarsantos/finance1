@@ -1,0 +1,18 @@
+self=$$; ( /usr/bin/mariadb-dump --user=_2e54e80ea779113c --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _2e54e80ea779113c || kill $self ) | /usr/bin/gzip >> ./fintech1.com/private/backups/20231211_000002-fintech1_com-database.sql.gz
+
+Backup Summary for fintech1.com at 2023-12-11 00:00:03.431677
+Config  : /home/iiht/finance_management/sites/fintech1.com/private/backups/20231211_000002-fintech1_com-site_config_backup.json 116.0B
+Database: /home/iiht/finance_management/sites/fintech1.com/private/backups/20231211_000002-fintech1_com-database.sql.gz 270.0KiB
+Backup for Site fintech1.com has been successfully completed
+self=$$; ( /usr/bin/mariadb-dump --user=_a9ecf7cfdd4b5256 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a9ecf7cfdd4b5256 || kill $self ) | /usr/bin/gzip >> ./iiht1.fintech1.com/private/backups/20231211_000003-iiht1_fintech1_com-database.sql.gz
+
+Backup Summary for iiht1.fintech1.com at 2023-12-11 00:00:04.191781
+Config  : /home/iiht/finance_management/sites/iiht1.fintech1.com/private/backups/20231211_000003-iiht1_fintech1_com-site_config_backup.json 94.0B
+Database: /home/iiht/finance_management/sites/iiht1.fintech1.com/private/backups/20231211_000003-iiht1_fintech1_com-database.sql.gz 259.4KiB
+Backup for Site iiht1.fintech1.com has been successfully completed
+self=$$; ( /usr/bin/mariadb-dump --user=_4fa6b317d9db8405 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _4fa6b317d9db8405 || kill $self ) | /usr/bin/gzip >> ./iiht2.fintech1.com/private/backups/20231211_000004-iiht2_fintech1_com-database.sql.gz
+
+Backup Summary for iiht2.fintech1.com at 2023-12-11 00:00:04.729617
+Config  : /home/iiht/finance_management/sites/iiht2.fintech1.com/private/backups/20231211_000004-iiht2_fintech1_com-site_config_backup.json 94.0B
+Database: /home/iiht/finance_management/sites/iiht2.fintech1.com/private/backups/20231211_000004-iiht2_fintech1_com-database.sql.gz 259.3KiB
+Backup for Site iiht2.fintech1.com has been successfully completed
